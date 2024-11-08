@@ -11,3 +11,5 @@ elif country == 'US' :
         print('eligible to take a driving test!')
     else :
         print('not eligible to take a driving test')
+else:
+    print('TW or US only')
