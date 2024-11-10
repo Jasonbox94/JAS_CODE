@@ -3,16 +3,13 @@ counter = int(3)
 
 while counter > 0 :
     in_pw = input('please input password:')
-    
+    counter = counter - 1
     if pw == in_pw:
         print('Login Successful.')
         break
     else:
-        
-        counter = counter - 1
-        
         if counter < 1:        
-            print('Bye Bye')
+            print('Account Locked!')
         else:
             print('Incorrect! '+ str(counter) + ' times rested')
 
