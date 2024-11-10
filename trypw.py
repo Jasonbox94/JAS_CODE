@@ -1,7 +1,7 @@
 pw = 'a123456'
 counter = int(3)
 
-while True:
+while counter > 0 :
     in_pw = input('please input password:')
     
     if pw == in_pw:
@@ -10,9 +10,10 @@ while True:
     else:
         print('Incorrect!')
         counter = counter - 1
-        if counter < 1:
+        if counter < 1:        
             print('Bye Bye')
-            break
+
+            
 
 
 
