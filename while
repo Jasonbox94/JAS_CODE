@@ -1,0 +1,6 @@
+x = 5
+while x < 10:
+    print(str(x) + ' < 10')
+    print('looping')
+    x = x+1
+print('Bye')
