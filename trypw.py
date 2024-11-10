@@ -8,10 +8,13 @@ while counter > 0 :
         print('Login Successful.')
         break
     else:
-        print('Incorrect!')
+        
         counter = counter - 1
+        
         if counter < 1:        
             print('Bye Bye')
+        else:
+            print('Incorrect! '+ str(counter) + ' times rested')
 
             
 
