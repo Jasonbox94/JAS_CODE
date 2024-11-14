@@ -3,9 +3,11 @@ import random
 r = random.randint(1 , 100)
 #print(str(r))
 switch = True
+count = 0
 while switch == True :
-
+    count += 1
     number = int(input('Guess a number: '))
+    print('times' + str(count))
     if r == number:
         print('Bingo')
         switch = False
