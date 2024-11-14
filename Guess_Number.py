@@ -1,5 +1,6 @@
 #Guess Number
 import random
+start = int(print('f'))
 r = random.randint(1 , 100)
 #print(str(r))
 switch = True
