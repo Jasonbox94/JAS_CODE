@@ -5,6 +5,6 @@ with open('food.txt','r') as f:
         data.append(row.strip())
 
         #print(row)
-print(data)
-#for txt in data:
-#    print(txt)
+#print(data)
+for txt in data:
+    print(txt)
